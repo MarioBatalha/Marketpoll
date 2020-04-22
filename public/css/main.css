@@ -1,0 +1,189 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*@import url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js);
+@import url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js);
+@import url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js);*/
+
+  /*header*/
+  *{
+      font-family: 'Montserrat';
+  }
+
+  a{
+      text-decoration: none;
+      color: #fff;
+  }
+
+  body{
+      background-color: #fff;
+      color: #1a2e35;
+  }
+
+  .large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: right;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ 
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ }
+
+  .menu{
+    background-color: #fff; 
+    position: fixed;
+    width: 100%;
+    margin-top: -100px;
+  }
+
+  .menu__logo {
+      width: 150px;
+      height: 50px;
+      margin: 20px;
+  }
+
+  .menu-header {
+    margin-top: -70px;
+  }
+
+  .menu-header__list {
+      float: right;
+      display: flex;
+      list-style: none;
+      font-size: 12pt;
+  }
+
+  .menu-header__item{
+      color: #ef4d58;
+      cursor: pointer;
+      margin: 0 5px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 10px;
+  }
+  .menu-header__item:hover {
+      border-bottom: 1px solid #f2f2f2;
+  }
+
+  .footer-body__social {
+      float: right;
+      margin: -100px 100px;
+  }
+
+  #footer-social__facebook {
+      font-size: 20pt;
+      margin: 0 2px;
+  }
+
+  #footer-social__facebook:hover{
+      color: #3b5998;
+  }
+
+  #footer-social__linkedin {
+    font-size: 20pt;
+    margin: 0 2px;
+}
+
+#footer-social__linkedin:hover{
+    color: #0e76a8;
+}
+
+  .container{
+      margin-top: 100px;
+  }
+  
+.card{
+    width: 100%;
+    display: flex;
+    margin: 2px;
+    justify-content: space-between;
+}
+
+.card__post {
+    padding: 40px 0;
+    text-align: center;
+    flex-flow: column;
+    background-image: url(../img/icon/marketing-1.jpg);
+}
+.plane__img {
+    width: 600px;
+    height: 400px;
+    align-items: center;
+}
+
+.plane__title {
+    font-weight: 700;
+    font-size: 30pt;
+    float: center;
+}
+
+p {
+    font-size: 10;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.read-more{
+    float: left;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    position: relative;
+    margin-left: 100px;
+    text-decoration: none;
+    color: #f2f2f2;
+    border-radius: 20px;
+    background: #EF4D58; 
+    background: -webkit-linear-gradient(to right, #EF4D58, #240b36);
+    background: linear-gradient(to right, #EF4D58, #240b36); 
+}
+
+.footer-body{
+    background-color: #1a2e35;
+    color: #f2f2f2;
+    height: 130px;
+}
+
+.footer-body__about{
+    font-size: 10pt;
+    height: auto;
+    text-align: center;
+    list-style: none;
+    margin-top: -60px;
+}
