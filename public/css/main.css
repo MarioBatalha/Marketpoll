@@ -37,6 +37,7 @@
     position: absolute;
     margin: 0;
     padding: 0;
+    font-size: 15pt;
     color: #F9F1E9;
     text-align: right;
     top: 50%;
@@ -51,13 +52,10 @@
     letter-spacing: 0.1em;
  }
  
- .main-title .thin {
-    font-weight: 200;
- }
  
  @media only screen and (max-width: 768px) {
     .demo .main-title {
-       font-size: 3em;
+       font-size: 2em;
     }
  }
 
@@ -94,7 +92,7 @@
       padding: 10px;
   }
   .menu-header__item:hover {
-      border-bottom: 1px solid #f2f2f2;
+      border-bottom: 1px solid #ef4d58;;
   }
 
   .footer-body__social {
@@ -168,16 +166,17 @@ p {
     margin-left: 100px;
     text-decoration: none;
     color: #f2f2f2;
+    background-color: #ef4d58;
     border-radius: 20px;
-    background: #EF4D58; 
-    background: -webkit-linear-gradient(to right, #EF4D58, #240b36);
-    background: linear-gradient(to right, #EF4D58, #240b36); 
 }
 
 .footer-body{
-    background-color: #1a2e35;
     color: #f2f2f2;
     height: 130px;
+    background: #EF4D58; 
+    background: -webkit-linear-gradient(to right, #EF4D58, #240b36);
+    background: linear-gradient(to right, #EF4D58, #240b36); 
+
 }
 
 .footer-body__about{
